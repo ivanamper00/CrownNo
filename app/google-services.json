@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1032388249359",
+    "project_id": "crown-bddb6",
+    "storage_bucket": "crown-bddb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032388249359:android:7c4981d851d6fcddc6607a",
+        "android_client_info": {
+          "package_name": "com.thecoo.crown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032388249359-jahi2a1qpv8l444c02c6870igcil53sv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thecoo.crown",
+            "certificate_hash": "5e9d1459f4f17afc869e4aef9e98d9d6e5918247"
+          }
+        },
+        {
+          "client_id": "1032388249359-t271vhbrsiov4m5qqc0gi811dvbcqk49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Tir63t38BSYk89Bg_3KOXtgsXPQgBkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032388249359-t271vhbrsiov4m5qqc0gi811dvbcqk49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
