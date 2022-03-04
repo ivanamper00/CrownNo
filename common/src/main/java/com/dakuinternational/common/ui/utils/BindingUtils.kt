@@ -22,6 +22,7 @@ fun backgroundResource(view: View, @DrawableRes uri: Int){
 @BindingAdapter("android:scrUri", "android:imageLoadedListener")
 fun loader(view: ImageView, uri: String, onImageLoaded: OnImageLoaded){
     try{
+        if(view.context == null) return
         Glide.with(view.context)
             .load(uri)
             .listener(object: RequestListener<Drawable>{
@@ -54,6 +55,7 @@ fun loader(view: ImageView, uri: String, onImageLoaded: OnImageLoaded){
 @BindingAdapter("android:uriSrc")
 fun uriSrc(view: ImageView, uri: String){
     try {
+        if(view.context == null) return
         Glide.with(view.context)
             .load(uri)
             .apply(RequestOptions().format(DecodeFormat.PREFER_RGB_565))
