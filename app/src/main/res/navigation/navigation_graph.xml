@@ -21,7 +21,8 @@
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.thecoo.crown.ui.fragments.DetailsFragment"
-        android:label="DetailsFragment" >
+        android:label="DetailsFragment"
+        tools:layout="@layout/fragment_details">
         <argument
             android:name="content"
             app:argType="string"/>
