@@ -1,4 +1,4 @@
-package com.thecoo.crown.ui.utils;
+package com.truyen.crown_rong.ui.utils;
 
 import android.util.Log;
 

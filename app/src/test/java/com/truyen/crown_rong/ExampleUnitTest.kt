@@ -1,4 +1,4 @@
-package com.thecoo.crown
+package com.truyen.crown_rong
 
 import org.junit.Test
 

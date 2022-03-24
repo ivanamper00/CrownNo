@@ -1,4 +1,4 @@
-package com.thecoo.crown.ui
+package com.truyen.crown_rong.ui
 
 import android.content.Context
 import android.content.DialogInterface
@@ -12,10 +12,10 @@ import com.dakuinternational.common.ui.base.BaseActivity
 import com.dakuinternational.common.ui.ActivityViewModel
 import com.dakuinternational.common.ui.dialog.AlertUtils
 import com.google.gson.Gson
-import com.thecoo.crown.R
-import com.thecoo.crown.databinding.ActivityMainBinding
-import com.thecoo.crown.ui.adapter.DashboardAdapter
-import com.thecoo.crown.ui.fragments.DashboardFragmentDirections
+import com.truyen.crown_rong.R
+import com.truyen.crown_rong.databinding.ActivityMainBinding
+import com.truyen.crown_rong.ui.adapter.DashboardAdapter
+import com.truyen.crown_rong.ui.fragments.DashboardFragmentDirections
 
 class MainActivity : BaseActivity(), DashboardAdapter.OnItemClickListener {
 

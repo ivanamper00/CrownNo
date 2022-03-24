@@ -1,11 +1,11 @@
-package com.thecoo.crown.ui.adapter
+package com.truyen.crown_rong.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.dakuinternational.common.domain.model.DataContent
-import com.thecoo.crown.data.CrwnAsset
-import com.thecoo.crown.databinding.ItemDashboardBinding
+import com.truyen.crown_rong.data.CrwnAsset
+import com.truyen.crown_rong.databinding.ItemDashboardBinding
 
 class DashboardAdapter(var onClick: OnItemClickListener) : RecyclerView.Adapter<DashboardAdapter.ViewHolder>() {
 

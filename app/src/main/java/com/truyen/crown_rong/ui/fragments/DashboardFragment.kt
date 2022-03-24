@@ -1,17 +1,13 @@
-package com.thecoo.crown.ui.fragments
+package com.truyen.crown_rong.ui.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import com.dakuinternational.common.domain.model.DataContent
 import com.dakuinternational.common.ui.base.BaseFragment
 import com.dakuinternational.common.ui.binding.viewBinding
-import com.thecoo.crown.R
-import com.thecoo.crown.databinding.FragmentDashboardBinding
-import com.thecoo.crown.ui.adapter.DashboardAdapter
+import com.truyen.crown_rong.R
+import com.truyen.crown_rong.databinding.FragmentDashboardBinding
+import com.truyen.crown_rong.ui.adapter.DashboardAdapter
 
 class DashboardFragment : BaseFragment(R.layout.fragment_dashboard) {
 
